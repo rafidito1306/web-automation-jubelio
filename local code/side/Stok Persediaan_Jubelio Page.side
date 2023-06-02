@@ -1,0 +1,384 @@
+{
+  "id": "2dd6fc51-13e2-4c85-ba70-a01860537531",
+  "version": "2.0",
+  "name": "Stok Persediaan_Jubelio Page",
+  "url": "https://app.jubelio.com",
+  "tests": [{
+    "id": "f2a3d169-437e-4ba9-84da-1e6b435ea4a9",
+    "name": "Stok Persediaan",
+    "commands": [{
+      "id": "85493e4a-7373-4080-996b-02a916e860d4",
+      "comment": "",
+      "command": "open",
+      "target": "/home/inventory",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65a5b2a8-2e0b-40a1-a099-ec291416f1b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "691x711",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3b756e6-f2d3-43e7-b657-84e9e9d2ce64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group > .form-control",
+      "targets": [
+        ["css=.input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cf87dd1-4bb0-40c1-97a3-5153c6d9bfcf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-primary > .ladda-label",
+      "targets": [
+        ["css=.btn-primary > .ladda-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3822165d-2edc-40bc-9d5e-4325da7ad56c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-primary > .ladda-label",
+      "targets": [
+        ["css=.btn-primary > .ladda-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "756a8fb7-714f-436a-8997-39d4f467faaa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-group > .form-control",
+      "targets": [
+        ["css=.input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "asus"
+    }, {
+      "id": "a0a43694-4f78-4a5e-ba7d-4811f00013bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon",
+      "targets": [
+        ["css=.glyphicon", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/span[3]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a0393be-796b-4f68-b75e-769f3af4d892",
+      "comment": "",
+      "command": "click",
+      "target": "id=select-all-checkbox",
+      "targets": [
+        ["id=select-all-checkbox", "id"],
+        ["name=select-all-checkbox", "name"],
+        ["css=#select-all-checkbox", "css:finder"],
+        ["xpath=//input[@id='select-all-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div/div/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53898e29-613a-44e7-be43-1dd13db642a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=list-children",
+      "targets": [
+        ["id=list-children", "id"],
+        ["css=#list-children", "css:finder"],
+        ["xpath=//button[@id='list-children']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sync Stok ke Online ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dceb4574-5453-43c7-b43d-dd844b90d20a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SKU yang dipilih",
+      "targets": [
+        ["linkText=SKU yang dipilih", "linkText"],
+        ["css=.open a", "css:finder"],
+        ["xpath=//a[contains(text(),'SKU yang dipilih')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/span/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[15]", "xpath:href"],
+        ["xpath=//span/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SKU yang dipilih')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f9f53cb-7935-4ced-82a0-eae9b453fa46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group > .form-control",
+      "targets": [
+        ["css=.input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='asus']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cea2c0d8-39f5-42a2-b1a3-a6d90087a18a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-group > .form-control",
+      "targets": [
+        ["css=.input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='asus']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone 11"
+    }, {
+      "id": "37cd0e31-55be-46d7-a485-a33df1d08b94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-search",
+      "targets": [
+        ["css=.glyphicon-search", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/span[3]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "133ac944-aa53-47a5-a2ce-6708d4e111da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ladda-button:nth-child(2)",
+      "targets": [
+        ["css=.ladda-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d609e2b5-b765-417a-b08b-491d9cfb77d9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ladda-button:nth-child(2)",
+      "targets": [
+        ["css=.ladda-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "658ff5ad-187e-465c-a421-d679c61621ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=span .react-grid-checkbox-label",
+      "targets": [
+        ["css=span .react-grid-checkbox-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div[6]/div/div/span/div/label", "xpath:idRelative"],
+        ["xpath=//span/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f604a502-875f-4ebe-b2bd-8a2d82119662",
+      "comment": "",
+      "command": "click",
+      "target": "id=list-children",
+      "targets": [
+        ["id=list-children", "id"],
+        ["css=#list-children", "css:finder"],
+        ["xpath=//button[@id='list-children']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sync Stok ke Online ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bb4978b-ab67-4da7-87bc-b9846dc0d2ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SKU yang dipilih",
+      "targets": [
+        ["linkText=SKU yang dipilih", "linkText"],
+        ["css=.open a", "css:finder"],
+        ["xpath=//a[contains(text(),'SKU yang dipilih')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/span/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[15]", "xpath:href"],
+        ["xpath=//span/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SKU yang dipilih')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ea49c42-8b4a-4d2c-9450-dd17be9aa9bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group > .form-control",
+      "targets": [
+        ["css=.input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='iphone 11']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96745164-cee9-4d51-ab05-4a0498478987",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-group > .form-control",
+      "targets": [
+        ["css=.input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='iphone 11']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone "
+    }, {
+      "id": "5e652b74-2881-4b11-8a5f-68ee4d4bb5fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-search",
+      "targets": [
+        ["css=.glyphicon-search", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/span[3]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b5c365c-c9a7-4bc2-ab85-91e68a2c55f6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-primary > .ladda-label",
+      "targets": [
+        ["css=.btn-primary > .ladda-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38564d68-4455-4500-89f2-e09271bb987c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-primary > .ladda-label",
+      "targets": [
+        ["css=.btn-primary > .ladda-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b6e2f5c-95bc-44f6-a8ad-09cb84458922",
+      "comment": "",
+      "command": "click",
+      "target": "id=select-all-checkbox",
+      "targets": [
+        ["id=select-all-checkbox", "id"],
+        ["name=select-all-checkbox", "name"],
+        ["css=#select-all-checkbox", "css:finder"],
+        ["xpath=//input[@id='select-all-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div/div/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e52c80d-995b-4daa-bcee-4d8042070a68",
+      "comment": "",
+      "command": "click",
+      "target": "id=list-children",
+      "targets": [
+        ["id=list-children", "id"],
+        ["css=#list-children", "css:finder"],
+        ["xpath=//button[@id='list-children']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sync Stok ke Online ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c703ef2-adc9-4dc6-b2bd-bc1a8b7294f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SKU yang dipilih",
+      "targets": [
+        ["linkText=SKU yang dipilih", "linkText"],
+        ["css=.open a", "css:finder"],
+        ["xpath=//a[contains(text(),'SKU yang dipilih')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/span/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[15]", "xpath:href"],
+        ["xpath=//span/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SKU yang dipilih')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46395b7b-3069-43c7-b19f-48987e387215",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group-btn > .btn-default",
+      "targets": [
+        ["css=.input-group-btn > .btn-default", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8611129e-7823-49e9-b1cc-f63ee81e4cf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-info > .ladda-label",
+      "targets": [
+        ["css=.btn-info > .ladda-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/span/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de599c4e-5313-4dec-946d-86bdcd7dc766",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(1) > .col-md-6 > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .col-md-6 > .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//body[@id='page-top']/div[5]/div[2]/div/div/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "1 Jun 2023"
+    }, {
+      "id": "0931672c-b1d3-4701-86b5-a88347aac211",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-fine-uploader-file-input",
+      "targets": [
+        ["css=.react-fine-uploader-file-input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//body[@id='page-top']/div[5]/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4a1e4cc9-16ae-4732-a92d-f728773082c5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f2a3d169-437e-4ba9-84da-1e6b435ea4a9"]
+  }],
+  "urls": ["https://app.jubelio.com/"],
+  "plugins": []
+}
